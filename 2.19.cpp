@@ -8,7 +8,7 @@ int main() {
     cin >> number;
 
     if (number < 1000 || number > 9999) {
-        cout << "Ошибка: введено не четырехзначное число!" << endl;
+        cout << "Введено не четырехзначное число" << endl;
         return 1;
     }
 
