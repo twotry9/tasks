@@ -17,7 +17,7 @@ int main() {
     bool isEven = (lastDigit % 2 == 0);
 
 
-    cout << "а) Число " << number << " заканчивается "
+    cout << "Число " << number << " заканчивается "
         << (isEven ? "четной" : "нечетной") << " цифрой (" << lastDigit << ")" << endl;
     return 0;
 }
