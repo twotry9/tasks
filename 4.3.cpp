@@ -1,25 +1,18 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-    int N;
-    cout << "Введите целое число N: ";
-    cin >> N;
+    double x, y;
 
-    // а)
-    if ((N % 5 == 0) || (N % 7 == 0)) {
-        cout << "N кратно 5 или 7" << endl;
-    }
-    else {
-        cout << "N НЕ кратно ни 5, ни 7" << endl;
-    }
+    cout << "Введите координату x: ";
+    cin >> x;
+    cout << "Введите координату y: ";
+    cin >> y;
 
-    // б)
-    if ((N % 4 == 0) && (N % 10 != 0)) {
-        cout << "N кратно 4 и не оканчивается на 0" << endl;
-    }
-    else {
-        cout << "Условие не выполнено" << endl;
+    if (y > 0 && y < 4) {
+        cout << "Точка находится в области I" << endl;
+    } else {
+        cout << "Точка находится в области II" << endl;
     }
 
     return 0;
