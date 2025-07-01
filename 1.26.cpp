@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Дан радиус окружности. Найти ее диаметр.
+#include <iostream>
 using namespace std;
 
 int main() {
