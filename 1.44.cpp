@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Даны стороны прямоугольника. Найти его периметр и длину диагонали.
+#include <iostream>
 #include <cmath>
 using namespace std;
 
