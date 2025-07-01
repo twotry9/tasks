@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Составить программу вывода на экран "столбиком" четырех любых чисел.
+#include <iostream>
 using namespace std;
 
 int main() {
