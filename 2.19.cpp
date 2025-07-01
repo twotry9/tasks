@@ -1,4 +1,7 @@
-﻿#include <iostream>
+// Дано четырехзначное число. Найти:
+// а) сумму его цифр;
+// б) произведение его цифр.
+#include <iostream>
 using namespace std;
 
 int main() {
