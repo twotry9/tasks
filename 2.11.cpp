@@ -1,4 +1,6 @@
-﻿#include <iostream>
+// Дано двузначное число. Получить число, образованное при перестановке
+// цифр заданного числа.
+#include <iostream>
 using namespace std;
 
 int main() {
