@@ -1,13 +1,19 @@
 // Дано предложение.Определить, сколько в нем гласных букв.
 #include <iostream>
 #include <string>
+#include <cctype>
 
-int main() {
-    std::string sentence;
-    std::cout << "Write sentence: ";
-    std::getline(std::cin, sentence);
+int main(int argc, char* argv[]) {
+    
+    if (argc < 2) {
+        std::cerr << "Usage: " << argv[0] << " \"sentence in quotes\"" << std::endl;
+        return 1;
+    }
 
+    std::string sentence = argv[1];
     int vowelCount = 0;
+
+    
     for (char c : sentence) {
         char lowerChar = tolower(c);
         if (lowerChar == 'a' || lowerChar == 'e' || lowerChar == 'i' ||
@@ -16,6 +22,6 @@ int main() {
         }
     }
 
-    std::cout << "Number of vowel: " << vowelCount << std::endl;
+    std::cout << "Number of vowels: " << vowelCount << std::endl;
     return 0;
 }
